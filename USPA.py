@@ -3,9 +3,9 @@ import re
 def format(df, season=None):
     df['BRAND'] = "U.S.POLO ASSN."
 
-    season = df.loc[1, 'SEASON']
+    # season = df.loc[1, 'SEASON']
 
-    season_formatted = season[0:2] + "-" + season[3:]
+    # season_formatted = season[0:2] + "-" + season[3:]
 
     df['SEASON'] = season
 
