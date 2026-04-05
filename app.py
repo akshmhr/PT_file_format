@@ -16,7 +16,7 @@ brand_map = {
 }
 
 season = None
-if brand in ["T-BASE", "STRIDE"]:
+if brand in ["USPA", "T-BASE", "STRIDE"]:
     season = st.text_input("Enter Season", placeholder="AW-25 / SS-25")
 
 file = st.file_uploader("Upload your excel", type=["xls", "xlsx"])
