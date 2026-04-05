@@ -25,6 +25,7 @@ def format(df, season=None):
         'USP-MWT-JEANS' : 'JEANS',
         'USP_MWT_SHIRT' : 'SHIRT',
         'USP_MWT_POLO T-SHIRT' : 'T-SHIRT',
+        'USP-MWT-T-SHIRT' : 'T-SHIRT',
         'USP_MWT_SWEATER' : 'SWEATER',
         'USP-MWT-TRACKPANT' : 'TRACKPANT'
     })
