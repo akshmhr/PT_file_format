@@ -7,7 +7,7 @@ def format(df, season=None):
 
     season_formatted = season[0:2] + "-" + season[3:]
 
-    df['SEASON'] = "AW-25"
+    df['SEASON'] = season
 
     df['SIZE'] = df['SIZE'].replace('XXL', '2XL')
 
