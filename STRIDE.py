@@ -19,6 +19,7 @@ def format(df, season=None):
     df['Item Name'] = df['Item Name'].replace({
         'T-SHIRTS' : 'T-SHIRT',
         'TSHIRTS' : 'T-SHIRT',
+        'T SHIRTS' : 'T-SHIRT',
         'SWEATSHIRT' : 'SWEAT SHIRT',
     })
 
